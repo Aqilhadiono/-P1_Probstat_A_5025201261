@@ -58,3 +58,12 @@ a. Fungsi Probabilitas dari Distribusi Exponensial
 b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 
 c. Nilai Rataan (μ) dan Varian (σ2) dari Distribusi Exponensial untuk n = 100 dan λ = 3
+
+## Soal 6
+Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+
+a. Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik.
+
+b. Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: NRP_Nama_Probstat_{Nama Kelas}_ DNhistorigram
+
+c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
