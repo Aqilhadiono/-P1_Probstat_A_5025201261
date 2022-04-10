@@ -14,7 +14,7 @@ a. Distribusi Geometrik
 
 b. Mean distribusi geometrik
 
-c.
+c. berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendekati nilai exact yang adad di poin a
 
 d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
 
