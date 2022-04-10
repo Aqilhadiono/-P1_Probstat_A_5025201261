@@ -21,6 +21,7 @@ a. Distribusi Geometrik
    ```
    0.1024
    ```
+   Penyelesaian dalam soal ini dilakukan dengan menggunakan rumus rerata dengan parameter berupa angka acak dari distribusi Geometri yang telah dilakukan dengan bantuan   fungsi rgeom(). 
    
 b. Mean distribusi geometrik
    ```
@@ -33,6 +34,7 @@ b. Mean distribusi geometrik
    mean
   [1] 50
    ```
+   Penyelesaian dalam soal ini dilakukan dengan kedua poin tersebut menghasilkan hasil yang berbeda. Pada poin A, dilakukan distribusi Geomterik biasa dan didapatkan nilai sebesar .
 
 c. berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendekati nilai exact yang adad di poin a
 
@@ -43,6 +45,7 @@ d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
    ```
    output
    ![image](https://user-images.githubusercontent.com/85855400/162617540-6772a6a8-c176-4120-abf4-4595a598b2bf.png)
+   Penyelesaian dalam soal ini dilakukan untuk mendapatkan nilai rataan menggunakan formula banyak data dikali dengan peluang kejadian.
 
 e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
    ```
@@ -58,6 +61,7 @@ e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
    variance
    [1] 20
    ```
+   Penyelesaian dalam soal ini dilakukan untuk mendapatkan nilai varian menggunakan formula nilai rataan dan dikali dengan komplemen dari peluang kejadian.
 
 ## Soal 2
 Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
@@ -80,6 +84,7 @@ b. Grafik Histogram
    ```
    output
    ![image](https://user-images.githubusercontent.com/85855400/162617774-6267c321-095f-4a94-af69-2301f0c39de9.png)
+   Penyelesaian dalam soal ini dilakukan dengan nilai rataan (μ) dan varian (σ²) dari distribusi Binomial
 
 c. Nilai Rataan (μ) dan Varian (σ²) dari DistribusiBinomial.
    ```
@@ -119,6 +124,7 @@ b. Histogram kelahiran 6 bayi akan lahir di rumah sakit selama setahun (n = 365)
    ```
    output
  ![image](https://user-images.githubusercontent.com/85855400/162618055-bcf42ed9-2530-4588-85d5-b5b9e11b08ec.png)
+ Penyelesaian dalam soal ini dilakukan dengan bandingkan hasil poin a dan b, nilai rataan (μ) dan varian (σ²) dari distribusi Poisson
 
 c. Kesimpulan yang didapatkan, hasil simulasi nya sekitar 11.5% sedangkan nilai exactnya sebesar 12,8% di mana ini sesuai karena nilai simulasi mendekati nilai exact.
 
