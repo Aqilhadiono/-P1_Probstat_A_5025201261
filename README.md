@@ -11,23 +11,90 @@ Aqil Ramadhan Hadiono
 Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
 
 a. Distribusi Geometrik
-
+   ```
+   p = 0.2
+   x = 3
+   P <- dgeom(x, p)
+   P
+   ```
+   output
+   ```
+   0.1024
+   ```
+   
 b. Mean distribusi geometrik
+   ```
+   mean(rgeom(n = 10000, prob = p) == 3)
+   mean
+   ```
+   output
+   ```
+   00.0994
+   mean
+  [1] 50
+   ```
 
 c. berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendekati nilai exact yang adad di poin a
 
 d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+   ```
+   n = 10000
+   hist(rgeom(n, prob = p), main = 'Histogram Geometrik')
+   ```
+   output
+   ![image](https://user-images.githubusercontent.com/85855400/162617540-6772a6a8-c176-4120-abf4-4595a598b2bf.png)
 
 e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
+   ```
+   mean = 1 / p
+   variance = (1 - p) / (p ^ 2)
+   mean
+   variance
+   ```
+   output
+   ```
+   mean
+   [1] 5
+   variance
+   [1] 20
+   ```
 
 ## Soal 2
 Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
 
 a. Peluang terdapat 4 pasien yang sembuh.
+   ```
+   x = 4
+   probability = dbinom(x, n, prob = p, log = FALSE)
+   probability
+   ```
+   output
+   ```
+   [1] 0
+   ```
 
 b. Grafik Histogram 
+   ```
+   x = 4
+   hist(rbinom(x, n, prob = p), xlab = "X", ylab = "Frekuensi", main = "Histogram of Binomial")
+   ```
+   output
+   ![image](https://user-images.githubusercontent.com/85855400/162617774-6267c321-095f-4a94-af69-2301f0c39de9.png)
 
 c. Nilai Rataan (μ) dan Varian (σ²) dari DistribusiBinomial.
+   ```
+   mean = n * (prob = p)
+   variance = n * (prob = p) * (1 - (prob = p))
+   mean
+   variance 
+   ```
+   output
+   ```
+  mean
+  [1] 2000
+  variance 
+  [1] 1600
+   ```
 
 ## Soal 3
 Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis
