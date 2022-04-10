@@ -11,7 +11,7 @@ Aqil Ramadhan Hadiono
 Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
 
 a. Distribusi Geometrik
-    
+
 b. Mean distribusi geometrik
 
 c. berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendekati nilai exact yang adad di poin a
